@@ -1,0 +1,37 @@
+@import "~@/styles/variable";
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 47px;
+    line-height: 47px;
+    background-color: #fff;
+    box-shadow: 20px 4px 40px 0 rgba(0, 0, 0, .05);
+    z-index: 10;
+}
+
+.iconButton {
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+    color: #888;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: @transition-ease-out;
+    &:hover {
+        color: #1390F2;
+        background: #D9EDFD;
+    }
+}
+
+.badge {
+    position: absolute;
+    font-size: 12px;
+    top: 5px;
+    margin-left: -5px;
+}
+
+

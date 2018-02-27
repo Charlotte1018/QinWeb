@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let arr = [{
+                label: "a",
+                value: 5,
+                children: [{
+                        label: "b",
+                        value: 6,
+                        children: undefined
+                    },
+                    {
+                        label: "法律信",
+                        value: 11,
+                        children: undefined
+                    },
+                    {
+                        label: "法律信",
+                        value: 12,
+                        children: undefined
+                    },
+                ]
+            },
+            {
+                label: "法律信",
+                value: 6,
+                children: undefined
+            },
+            {
+                label: "法律信",
+                value: 7,
+                children: undefined
+            },
+            {
+                label: "法律信",
+                value: 10,
+                children: undefined
+            },
+        ];
+
+        function foo(con, arr, val) {
+            return arr.map(item => {
+                if (item.value === val) {
+                    return item.value;
+                } else {
+                    if (item.children) {
+                        con.push(item.value);
+                        foo(con, item.children, val);
+                    }
+                }
+            });
+        }
+
+        // function bar (arr, val) {
+
+        // }
+
+        // let a = [1,2].map(item => {
+        //     return item;
+        // });
+
+        // console.log(a);
+
+        console.log(foo([], arr, 11));
+
+    </script>
+
+</body>
+
+</html>
