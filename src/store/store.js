@@ -4,23 +4,23 @@ import {composeWithDevTools} from 'redux-devtools-extension';
 
 // import Perf from 'react-addons-perf';
 
-import UserReducer from '@/containers/User/reducer';
+// import UserReducer from '@/containers/User/reducer';
 import {reducer as DashboardReducer} from '@/containers/Dashboard';
-import UserAnalysisReducer from '@/containers/UserAnalysis/reducer';
-import RankUserReducer from '@/containers/RankUser/reducer';
-import RankArticleReducer from '@/containers/RankArticle/reducer';
-import {reducer as MenuReducer} from '@/containers/Menu';
-import {reducer as AdminReducer} from '@/containers/Admin';
-import {reducer as RoleReducer} from '@/containers/Role';
-import {reducer as PermissionReducer} from '@/containers/Permission';
-import PermissionListReducer from '@/containers/PermissionList/reducer';
-import {reducer as CategoryReducer} from '@/containers/Category';
-import {reducer as NavReducer} from '@/containers/Nav';
-import {reducer as NavCategoryReducer} from '@/containers/NavCategory';
-import UserAuthReducer from '@/containers/UserAuth/reducer';
-import {reducer as ArticleCheckedReducer} from '@/containers/ArticleChecked';
-import ArticleDetailReducer from '@/containers/ArticleDetail/reducer';
-import ArticleFeedbackReducer from '@/containers/ArticleFeedback/reducer';
+// import UserAnalysisReducer from '@/containers/UserAnalysis/reducer';
+// import RankUserReducer from '@/containers/RankUser/reducer';
+// import RankArticleReducer from '@/containers/RankArticle/reducer';
+// import {reducer as MenuReducer} from '@/containers/Menu';
+// import {reducer as AdminReducer} from '@/containers/Admin';
+// import {reducer as RoleReducer} from '@/containers/Role';
+// import {reducer as PermissionReducer} from '@/containers/Permission';
+// import PermissionListReducer from '@/containers/PermissionList/reducer';
+// import {reducer as CategoryReducer} from '@/containers/Category';
+// import {reducer as NavReducer} from '@/containers/Nav';
+// import {reducer as NavCategoryReducer} from '@/containers/NavCategory';
+// import UserAuthReducer from '@/containers/UserAuth/reducer';
+// import {reducer as ArticleCheckedReducer} from '@/containers/ArticleChecked';
+// import ArticleDetailReducer from '@/containers/ArticleDetail/reducer';
+// import ArticleFeedbackReducer from '@/containers/ArticleFeedback/reducer';
 import {loading, loaded, detail} from './reducer';
 
 // const win = window; win.Perf = Perf;
@@ -29,23 +29,7 @@ const reducer = combineReducers({
     loading,
     loaded,
     detail,
-    ArticleCheckedReducer,
-    UserReducer,
     DashboardReducer,
-    UserAnalysisReducer,
-    RankUserReducer,
-    RankArticleReducer,
-    MenuReducer,
-    AdminReducer,
-    RoleReducer,
-    PermissionReducer,
-    PermissionListReducer,
-    CategoryReducer,
-    NavReducer,
-    NavCategoryReducer,
-    UserAuthReducer,
-    ArticleDetailReducer,
-    ArticleFeedbackReducer
 });
 
 const middlewares = [ReduxThunk];
