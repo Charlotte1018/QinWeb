@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>我没有ca证书</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#AEADAD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="注册成功-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-803.000000, -415.000000)">
+        <g id="我没有ca证书" transform="translate(804.000000, 416.000000)" stroke="#979797">
+            <path d="M72.3011829,50.1430511 C69.5049261,66.3480643 56.9121988,78.3357044 46.2841658,78.3357044 C35.6219826,78.3357044 22.9824589,66.3397303 20.2404976,50.0102375 C18.7365513,49.3808243 17.4457837,47.3759034 17.0923272,44.8609297 C16.6402757,41.644416 17.8919554,38.8072805 19.8902284,38.5074486 C21.1981204,22.2675411 29.2832353,14 46.2841658,14 C63.2692878,14 71.3551674,22.3247536 72.6744371,38.4817865 C72.7920918,38.4803397 72.9101011,38.4877269 73.028155,38.5043183 C75.0389664,38.7869194 76.3012756,41.6328713 75.8476016,44.8609297 C75.4632905,47.5954453 73.9708826,49.7269724 72.3011833,50.1430486 Z" id="Combined-Shape" stroke-width="2" fill="url(#linearGradient-1)"></path>
+            <path d="M0,8 L0,4 C0,1.790861 1.790861,0 4,0 L8,0" id="Rectangle-6" stroke-linecap="round"></path>
+            <path d="M84,8 L84,4 C84,1.790861 85.790861,0 88,0 L92,0" id="Rectangle-6" stroke-linecap="round" transform="translate(88.000000, 4.000000) scale(-1, 1) translate(-88.000000, -4.000000) "></path>
+            <path d="M0,92 L0,88 C0,85.790861 1.790861,84 4,84 L8,84" id="Rectangle-6" stroke-linecap="round" transform="translate(4.000000, 88.000000) scale(1, -1) translate(-4.000000, -88.000000) "></path>
+            <path d="M84,92 L84,88 C84,85.790861 85.790861,84 88,84 L92,84" id="Rectangle-6" stroke-linecap="round" transform="translate(88.000000, 88.000000) scale(-1, -1) translate(-88.000000, -88.000000) "></path>
+        </g>
+    </g>
+</svg>

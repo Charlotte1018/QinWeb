@@ -4,9 +4,12 @@ import { cookie } from '@/utils';
 
 import App from '../containers/App';
 import Home from '../containers/Home';
-import Login from '../containers/Login';
-import Logins from '../containers/Login/login.js';
+import Logins from '../containers/Login';
+import Login from '../containers/Login/login.js';
 import { view as Dashboard } from '../containers/Dashboard';
+import { view as Register } from '../containers/Register';
+import { success as registerSuccess } from '../containers/Register';
+import { CertificateRequest } from '../containers/CertificateRequest';
 
 import Test from '../containers/test';
 import E500 from '../containers/Exception/500';
@@ -29,7 +32,7 @@ class RouterMap extends React.Component {
                         }}>>
                         <IndexRoute component={Dashboard} />
                         <Route path="dashboard" component={Dashboard} />
-                        
+
                         {/* 404 */}
                         <Route path='/404' component={E404} />
                         <Route path='/500' component={E500} />
@@ -41,8 +44,10 @@ class RouterMap extends React.Component {
                                 replace({ pathname: '/' });
                             }
                         }} />/>/>
-                    <Route path='logins' component={Logins}>
-                    </Route>
+                    <Route path='logins' component={Logins}/>
+                    <Route path='register' component={Register}/>
+                    <Route path='registerSuccess' component={registerSuccess}/>
+                    <Route path='certificateRequest' component={CertificateRequest}/>
                     {/* 其他重定向到 404 */}
                     <Redirect from='*' to='/404' />
                 </Route>

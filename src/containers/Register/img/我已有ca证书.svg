@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="100px" viewBox="0 0 88 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>我已有ca证书</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <path d="M12.4401562,53.4216656 L1.21338911,48.6190651 C0.47736497,48.3042078 6.93893562e-15,47.5807909 3.99680289e-15,46.7802494 L0,0 L79.0123457,0 L79.0123457,46.7802494 C79.0123457,47.5807909 78.5349807,48.3042078 77.7989566,48.6190651 L66.53907,53.4358335 L12.4401562,53.4216656 Z" id="path-2"></path>
+        <rect id="path-4" x="-1" y="-2" width="20" height="60"></rect>
+        <rect id="path-5" x="60.2222222" y="-2" width="20" height="58"></rect>
+        <linearGradient x1="50%" y1="32.6470823%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#F8F8F8" offset="0%"></stop>
+            <stop stop-color="#D0D1D4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#E8E6E6" offset="0%"></stop>
+            <stop stop-color="#9D9D9D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="注册成功-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-546.000000, -415.000000)">
+        <g id="我已有ca证书" transform="translate(546.000000, 415.000000)">
+            <rect id="Rectangle-5" stroke="#979797" stroke-width="2" x="1" y="1" width="86" height="5" rx="2.5"></rect>
+            <g id="Rectangle-3-+-Rectangle-3-Copy-Mask" transform="translate(4.000000, 7.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#979797" stroke-width="2" d="M12.235121,54.4216119 L0.82008366,49.538473 C-0.283952545,49.066187 -1,47.9810616 -1,46.7802494 L-1,-1 L80.0123457,-1 L80.0123457,46.7802494 C80.0123457,47.9810616 79.2962982,49.066187 78.192262,49.538473 L66.7438544,54.4358871 L12.235121,54.4216119 Z"></path>
+                </g>
+                <g id="Rectangle-3" mask="url(#mask-3)">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#979797" stroke-width="1" x="-0.5" y="-1.5" width="19" height="59"></rect>
+                </g>
+                <g id="Rectangle-3-Copy" mask="url(#mask-3)">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#979797" stroke-width="1" x="60.7222222" y="-1.5" width="19" height="57"></rect>
+                </g>
+            </g>
+            <circle id="Oval" stroke="#979797" stroke-width="2" fill="url(#linearGradient-6)" cx="44" cy="69" r="30"></circle>
+            <circle id="Oval" stroke="#979797" fill="url(#linearGradient-7)" cx="44" cy="69" r="24"></circle>
+            <path d="M43.5311528,76.7041491 L36.9909671,80.1756983 C36.5031454,80.4346354 35.8977777,80.2490878 35.6388406,79.7612661 C35.5344569,79.5646138 35.4986838,79.338751 35.5371896,79.1194672 L36.8178005,71.8266132 C36.8752096,71.4996786 36.7666492,71.1655642 36.528037,70.9348129 L31.205369,65.7874942 C30.80836,65.4035642 30.7977573,64.770488 31.1816874,64.373479 C31.3364586,64.2134353 31.5402123,64.1096176 31.7606626,64.0784764 L39.0923094,63.0427939 C39.420983,62.9963648 39.7051977,62.7898708 39.8509201,62.491631 L43.1015161,55.838864 C43.3439727,55.342645 43.9427876,55.13693 44.4390065,55.3793866 C44.639044,55.4771266 44.8007439,55.6388265 44.8984839,55.838864 L48.1490799,62.491631 C48.2948023,62.7898708 48.579017,62.9963648 48.9076906,63.0427939 L56.2393374,64.0784764 C56.7861929,64.1557262 57.1668835,64.6616635 57.0896336,65.208519 C57.0584924,65.4289693 56.9546746,65.632723 56.794631,65.7874942 L51.471963,70.9348129 C51.2333508,71.1655642 51.1247904,71.4996786 51.1821995,71.8266132 L52.4628104,79.1194672 C52.5583291,79.6634291 52.1947939,80.1818306 51.6508319,80.2773493 C51.4315481,80.3158551 51.2056853,80.2800819 51.0090329,80.1756983 L44.4688472,76.7041491 C44.1756543,76.5485215 43.8243457,76.5485215 43.5311528,76.7041491 Z" id="Star" stroke="#979797" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
