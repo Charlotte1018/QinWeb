@@ -1,24 +1,63 @@
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.f24{font-size:24px;}
+.f30{font-size:30px;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
 .certificateRequest{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100wh;
     height: 100vh;
+    background-color: white !important;
     .card{
         border: 1px solid rgba(138, 137, 137, 0.445);
         border-radius: 4px;
         width: 800px;
         height: 200px;
     }
-    .f14{font-size:14px;}
-    .f16{font-size:16px;}
-    .f18{font-size:18px;}
-    .f20{font-size:20px;}
-    .f24{font-size:24px;}
-    .f30{font-size:30px;}
-    .mt5{margin-top:5px;}
-    .mt10{margin-top:10px;}
-    .mt15{margin-top:15px;}
-    .mt20{margin-top:20px;}
-    .mt30{margin-top:30px;}
+    .grey{
+        -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+	
+    filter: gray;
+    }
+    .card:hover{
+        border: 1px solid #10C786;
+    }
+    .card:hover .title{
+        color:#10C786;
+    }
+    button{
+        border-color: #10C786;
+        color: #10C786;
+    }
+}
+.eidIdentify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    width: 100wh;
+    height: 100vh;
+    background-color: white !important;
+    .card{
+        border: 1px solid rgba(138, 137, 137, 0.445);
+        border-radius: 10px;
+        width: 500px;
+        height: 500px;
+    }
+    .card:hover{
+        border: 1px solid #10C786;
+    }
 }
