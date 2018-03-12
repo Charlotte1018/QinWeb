@@ -18,30 +18,28 @@
     background-color: white !important;
     .card{
         border: 1px solid rgba(138, 137, 137, 0.445);
-        border-radius: 4px;
+        border-radius: 5px;
         width: 800px;
         height: 200px;
     }
-    .grey{
-        -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    
-    filter: grayscale(100%);
-	
-    filter: gray;
+    .button{
+        border:1px solid transparent !important;
+        background-color: #10C786 !important;
+        color: white !important;
     }
-    .card:hover{
-        border: 1px solid #10C786;
+    .button:hover{
+        border:1px solid transparent !important;
+        background-color: rgb(16, 182, 124) !important;
+        color: white !important;
     }
-    .card:hover .title{
-        color:#10C786;
-    }
-    button{
-        border-color: #10C786;
-        color: #10C786;
-    }
+}
+.eid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    height: 100vh;
+    background-color: white !important;
 }
 .eidIdentify{
     display: flex;
@@ -49,8 +47,9 @@
     justify-content: center;
     flex-direction:row;
     width: 100wh;
-    height: 100vh;
-    background-color: white !important;
+    .grey{
+        color: '#8E8E8E';
+    }
     .card{
         border: 1px solid rgba(138, 137, 137, 0.445);
         border-radius: 10px;
@@ -60,4 +59,23 @@
     .card:hover{
         border: 1px solid #10C786;
     }
+    img{
+        filter: saturate(.1);
+    }
+    .card:hover h1{
+        color:#10C786;
+    }
+    .card:hover img{
+        filter: saturate(1);
+    }
+    .button{
+        border-color: #10C786 !important;
+        color: #10C786 !important;
+    }
+    .card:hover button{
+        border-color: #10C786 !important;
+        background-color: #10C786 !important;
+        color: #fff !important;
+    }
 }
+

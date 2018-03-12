@@ -15,8 +15,11 @@
     }
     .left{
         background-color: rgba(36, 29, 29, 0.5);
-        height: 100vh;
         flex: 3;
+        img{
+            height: 100vh;
+            width:100%;
+        }
     }
     .right{
         flex: 2;
@@ -61,5 +64,11 @@
         height: 270px;
         border: 1px solid #10C786;
         border-radius: 4px;
+    }
+    img{
+        filter: saturate(.1);
+    }
+    .card:hover img{
+        filter: saturate(1);
     }
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Form, Icon, Input, Button, Select, Tabs, Checkbox } from 'antd';
 import { Page } from '@/components';
 import styles from './styles.less';
+import {bg} from './svg.js';
 
 //表单组件
 const FormItem = Form.Item;
@@ -29,7 +30,7 @@ class RegisterForm extends Component {
                 <div className={styles.login}>
                     <div className={styles.left}>
                         <div className={styles.background}>
-
+                            <img src={bg}></img>
                         </div>
                     </div>
                     <div className={styles.right}>
@@ -56,7 +57,7 @@ class RegisterForm extends Component {
                                             })(
                                                 <Input size="large" style={{ width: '70%' }} prefix={<Icon type='user' />} placeholder='图形验证码' />
                                             )}
-                                            <img/>
+                                            <img />
                                         </FormItem>
                                         <FormItem>
                                             {getFieldDecorator('password', {
@@ -103,7 +104,7 @@ class RegisterForm extends Component {
                                             {getFieldDecorator('password', {
                                                 rules: [{ required: true, message: '请输入图形验证码！' }]
                                             })(
-                                                <Input size="large" style={{width:'70%'}} prefix={<Icon type='lock' />} placeholder='图形验证码' />
+                                                <Input size="large" style={{ width: '70%' }} prefix={<Icon type='lock' />} placeholder='图形验证码' />
                                             )}
                                         </FormItem>
                                         <FormItem>
@@ -149,7 +150,7 @@ class RegisterForm extends Component {
                                             {getFieldDecorator('password', {
                                                 rules: [{ required: true, message: '请输入图形验证码！' }]
                                             })(
-                                                <Input size="large" style={{width:'70%'}} prefix={<Icon type='lock' />} placeholder='图形验证码' />
+                                                <Input size="large" style={{ width: '70%' }} prefix={<Icon type='lock' />} placeholder='图形验证码' />
                                             )}
                                         </FormItem>
                                         <FormItem>

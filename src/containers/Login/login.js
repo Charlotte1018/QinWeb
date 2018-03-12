@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Form, Icon, Input, Button, Select, Tabs } from 'antd';
 import { Page } from '@/components';
 import styles from './login.less';
+import {bg} from './svg.js';
 
 //表单组件
 const FormItem = Form.Item;
@@ -29,7 +30,7 @@ class LoginForm extends Component {
                 <div className={styles.login}>
                     <div className={styles.left}>
                         <div className={styles.background}>
-
+                            <img src={bg}></img>
                         </div>
                     </div>
                     <div className={styles.right}>

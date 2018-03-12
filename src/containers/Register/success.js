@@ -39,17 +39,17 @@ class RegisterSuccessForm extends Component {
                         </div>
                         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '30px', }}>
                             <div className={styles.card} style={{ marginRight: '40px' }}>
-                                <img width='100px' height='100px' style={{ marginTop: '50px' }} src={haveCA} ></img>
+                                <img width='100px' height='100px' style={{ marginTop: '50px' }} src={haveCAH} ></img>
                                 <div>
-                                    <Button size="large" type="primary" ghost style={{ marginTop: '30px', height: '35px' }}>
+                                    <Button size="large" type="primary" ghost style={{ marginTop: '50px', height: '35px' }}>
                                         我已有CA证书
                                     </Button>
                                 </div>
                             </div>
                             <div className={styles.card}>
-                                <img width='100px' height='100px' style={{ marginTop: '50px' }} src={noCA}></img>
+                                <img width='100px' height='100px' style={{ marginTop: '50px' }} src={noCAH}></img>
                                 <div>
-                                    <Button size="large" type="primary" ghost style={{ marginTop: '30px', height: '35px' }}>
+                                    <Button size="large" type="primary" ghost style={{ marginTop: '50px', height: '35px' }}>
                                         我没有CA证书
                                     </Button>
                                 </div>
