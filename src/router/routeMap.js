@@ -4,6 +4,7 @@ import { cookie } from '@/utils';
 
 import App from '../containers/App';
 import Home from '../containers/Home';
+import Homes from '../containers/Homes/Main';
 import Logins from '../containers/Login';
 import Login from '../containers/Login/login.js';
 import { view as Dashboard } from '../containers/Dashboard';
@@ -24,7 +25,7 @@ class RouterMap extends React.Component {
         return (
             <Router history={this.props.history}>
                 <Route component={App}>
-                    <Route path="/" component={Home}
+                    <Route path="/" component={Homes}
                         onEnter={(nextState, replace) => {
                             if (!getToken()) {
                                 replace({ pathname: '/login' });
